@@ -13,6 +13,8 @@ public class LeadPage extends PageActions {
     {
         super(driver, logger);
         PageFactory.initElements(driver, this);
+
+        System.out.println(" Hey the lead page");
     }
 
     @FindBy(linkText="New Lead")
